@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: gdrive
+Version: 0.1.5
+Summary: Google Drive simple client
+Home-page: https://github.com/kiemlicz/gdrive
+Author: kiemlicz
+Author-email: stanislaw.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools (~=59.6.0)
+Requires-Dist: wheel (~=0.37.1)
+Requires-Dist: versioneer (~=0.22)
+Requires-Dist: argparse (~=1.4.0)
+Requires-Dist: google-api-python-client (~=2.43.0)
+Requires-Dist: google-auth-oauthlib (~=0.5.1)
+Requires-Dist: SecretStorage (~=3.3.1)
+
+# GDrive
+Simple Google Drive wrapper to traverse files using `/a/b/c/myfile` syntax
+
+
